@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaBradesco.iml" filepath="$PROJECT_DIR$/.idea/JavaBradesco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TIPOS-VARIAVEIS/TIPOS-VARIAVEIS.iml" filepath="$PROJECT_DIR$/TIPOS-VARIAVEIS/TIPOS-VARIAVEIS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/controle-fluxo/controle-fluxo.iml" filepath="$PROJECT_DIR$/controle-fluxo/controle-fluxo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sistema-smart-tv/sistema-smart-tv.iml" filepath="$PROJECT_DIR$/sistema-smart-tv/sistema-smart-tv.iml" />
+    </modules>
+  </component>
+</project>

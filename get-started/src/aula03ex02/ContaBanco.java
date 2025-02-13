@@ -33,7 +33,7 @@ public class ContaBanco {
     public void consultarChequeEspecial(){
         System.out.println("Seu cheque especial é de: " + this.chequeEspecial);
     }
-    
+
 
     public void pagarBoleto(double boleto) {
         if (boleto > saldo) {
@@ -44,19 +44,19 @@ public class ContaBanco {
         }
     }
 
-    public double getSaldo() {
+    private double getSaldo() {
         return saldo;
     }
 
-    public void setSaldo(double saldo) {
+    private void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
-    public double getChequeEspecial() {
+    private double getChequeEspecial() {
         return chequeEspecial;
     }
 
-    public void setChequeEspecial(double chequeEspecial) {
+    private void setChequeEspecial(double chequeEspecial) {
         this.chequeEspecial = chequeEspecial;
     }
 }

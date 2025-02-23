@@ -4,13 +4,6 @@ package map.Pesquisa;
 import java.util.HashMap;
 import java.util.Map;
 
-/*
-
-adicionarProduto(long cod, String nome, int quantidade, double preco)
-exibirProdutos()
-calcularValorTotalEstoque()
-obterProdutoMaisCaro()
-*/
 public class EstoqueProdutos {
 
     private Map<Long, Produto> estoqueProdutosMap;

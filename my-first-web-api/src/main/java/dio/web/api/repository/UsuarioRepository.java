@@ -12,7 +12,7 @@ public class UsuarioRepository {
     public void save(Usuario usuario){
         if (usuario.getLogin() == null)
             throw new BusinessException("O campo login é obrigatório");
-        
+
         System.out.println("SAVE - Recebendo o usuário na camada de repositório");
         System.out.println(usuario);
     }

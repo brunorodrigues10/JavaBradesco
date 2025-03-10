@@ -33,4 +33,9 @@ import java.util.List;
         repository.save(usuario);
     }
 
+        @PutMapping()
+        public void putUser(@RequestBody Usuario usuario){
+            repository.save(usuario);
+        }
+
 }

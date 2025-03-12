@@ -1,5 +1,6 @@
 package one.digitalinovation.gof;
 
+import one.digitalinovation.gof.facade.Facade;
 import one.digitalinovation.gof.singleton.SingletonEager;
 import one.digitalinovation.gof.singleton.SingletonLazy;
 import one.digitalinovation.gof.singleton.SingletonLazyHolder;
@@ -28,6 +29,7 @@ public class Test {
 
         // Strategy
 
+        /**
         Comportamento Defensivo = new ComportamentoDefensivo();
         Comportamento normal = new ComportamentoNormal();
         Comportamento Agressivo = new ComportamentoAgressivo();
@@ -42,7 +44,12 @@ public class Test {
         robo.mover();
         robo.mover();
         robo.mover();
+         **/
 
+        // Facade
+
+        Facade facade = new Facade();
+        facade.migrarCliente("Venilton", "1233445333");
 
     }
 }
